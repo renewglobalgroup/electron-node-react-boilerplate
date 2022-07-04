@@ -31,7 +31,7 @@ To package apps for the local platform:
 yarn electron:build
 ```
 
-### Building on Macos Monterey
+### Building in macOS Monterey
 
 Run the project with the command:
 
