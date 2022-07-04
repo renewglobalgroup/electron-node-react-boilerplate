@@ -8,12 +8,10 @@
 Clone the repo and install dependencies:
 
 ```bash
-git clone --depth 1 --branch main https://github.com/eli-global-ph/electron-react-boilerplate.git your-project-name
+git clone --depth 1 --branch main https://github.com/eli-global-ph/electron-node-react-boilerplate.git your-project-name
 cd your-project-name
 yarn install
 ```
-
-**Having issues installing? See our [debugging guide](https://github.com/electron-react-boilerplate/electron-react-boilerplate/issues/400)**
 
 ## Starting Development
 

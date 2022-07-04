@@ -1,9 +1,9 @@
 {
-  "name": "electron-react",
+  "name": "electron-node-react-boilerplate",
   "version": "0.1.0",
   "private": true,
   "description": "An Electron application with React, Node and Bootstrap",
-  "author": "Ardiente Rex",
+  "author": "Rex",
   "dependencies": {
     "@babel/node": "^7.18.6",
     "@electron/remote": "^1.0.2",
