@@ -1,9 +1,26 @@
 {
-  "name": "electron-node-react-boilerplate",
+  "name": "electron-react",
   "version": "0.1.0",
   "private": true,
   "description": "An Electron application with React, Node and Bootstrap",
-  "author": "Rex",
+  "license": "MIT",
+  "author": {
+    "name": "Rex",
+    "email": "rardiente@renewglobalgroup.com",
+    "url": "https://github.com/eli-global-ph/electron-node-react-boilerplate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eli-global-ph/electron-node-react-boilerplate.git"
+  },
+  "keywords": [
+    "electron",
+    "react",
+    "boilerplate",
+    "webpack",
+    "bootstrap",
+    "reload"
+  ],
   "dependencies": {
     "@babel/node": "^7.18.6",
     "@electron/remote": "^1.0.2",
