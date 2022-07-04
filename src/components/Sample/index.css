@@ -1,0 +1,10 @@
+#sample-template {
+  text-align: center;
+  color: #ffff;
+}
+#sample-template>h1 {
+  margin: 50px 0px 0px 0px;
+}
+#sample-template>#api-msg {
+  color: #d4d661;
+}

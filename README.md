@@ -1,8 +1,7 @@
 <p>
-  Electron React Boilerplate uses <a href="https://electron.atom.io/">Electron</a>, <a href="https://facebook.github.io/react/">React</a>, <a href="https://github.com/reactjs/react-router">React Router</a>, <a href="https://webpack.js.org/">Webpack</a> and <a href="https://www.npmjs.com/package/react-refresh">React Fast Refresh</a>.
+  Electron React Boilerplate uses <a href="https://electron.atom.io/">Electron</a>, <a href="https://facebook.github.io/react/">React</a>, NodeJS, Webpack and Bootstrap.
 </p>
 
-<br>
 
 ## Install
 
@@ -11,7 +10,7 @@ Clone the repo and install dependencies:
 ```bash
 git clone --depth 1 --branch main https://github.com/eli-global-ph/electron-react-boilerplate.git your-project-name
 cd your-project-name
-npm install
+yarn install
 ```
 
 **Having issues installing? See our [debugging guide](https://github.com/electron-react-boilerplate/electron-react-boilerplate/issues/400)**
@@ -21,7 +20,7 @@ npm install
 Start the app in the `dev` environment:
 
 ```bash
-npm start
+yarn electron:serve
 ```
 
 ## Packaging for Production
@@ -29,9 +28,11 @@ npm start
 To package apps for the local platform:
 
 ```bash
-npm run package
+yarn electron:build
 ```
 
-## Docs
+### Building on Macos Monterey
 
-See our [docs and guides here](https://electron-react-boilerplate.js.org/docs/installation)
+Run the project with the command:
+
+	$ PYTHON_PATH=$(which python) npm run electron:build
